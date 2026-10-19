@@ -83,28 +83,28 @@ defaults write com.apple.Siri UserHasDeclinedEnable -bool true
 defaults write com.apple.Siri VoiceTriggerUserEnabled -bool false
 defaults write com.apple.lookup.shared LookupDisabled -bool true
 defaults write com.apple.Spotlight orderedItems -array \
-  '{enabled=0;name=APPLICATIONS;}' \
-  '{enabled=0;name=MENU_EXPRESSION;}' \
-  '{enabled=0;name=MENU_CONVERSION;}' \
-  '{enabled=0;name=MENU_DEFINITION;}' \
-  '{enabled=0;name=SYSTEM_PREFS;}' \
-  '{enabled=0;name=DOCUMENTS;}' \
-  '{enabled=0;name=DIRECTORIES;}' \
-  '{enabled=0;name=PRESENTATIONS;}' \
-  '{enabled=0;name=SPREADSHEETS;}' \
-  '{enabled=0;name=PDF;}' \
-  '{enabled=0;name=MESSAGES;}' \
-  '{enabled=0;name=CONTACT;}' \
-  '{enabled=0;name=EVENT_TODO;}' \
-  '{enabled=0;name=IMAGES;}' \
-  '{enabled=0;name=BOOKMARKS;}' \
-  '{enabled=0;name=MUSIC;}' \
-  '{enabled=0;name=MOVIES;}' \
-  '{enabled=0;name=FONTS;}' \
-  '{enabled=0;name=MENU_OTHER;}' \
-  '{enabled=0;name=SOURCE;}' \
-  '{enabled=0;name=MENU_WEBSEARCH;}' \
-  '{enabled=0;name=MENU_SPOTLIGHT_SUGGESTIONS;}'
+  '<dict><key>enabled</key><false/><key>name</key><string>APPLICATIONS</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MENU_EXPRESSION</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MENU_CONVERSION</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MENU_DEFINITION</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>SYSTEM_PREFS</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>DOCUMENTS</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>DIRECTORIES</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>PRESENTATIONS</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>SPREADSHEETS</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>PDF</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MESSAGES</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>CONTACT</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>EVENT_TODO</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>IMAGES</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>BOOKMARKS</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MUSIC</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MOVIES</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>FONTS</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MENU_OTHER</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>SOURCE</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MENU_WEBSEARCH</string></dict>' \
+  '<dict><key>enabled</key><false/><key>name</key><string>MENU_SPOTLIGHT_SUGGESTIONS</string></dict>'
 defaults write com.apple.HIToolbox AppleDictationAutoEnable -int 0
 defaults write com.apple.gms.availability "com.apple.gms.availability.wasAvailable" -bool false
 defaults write com.apple.CloudSubscriptionFeatures.cache GMOptIn -bool false
